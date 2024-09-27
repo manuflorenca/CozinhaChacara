@@ -27,11 +27,16 @@ main h1 {
     color: white;    
 }
 .sobre {
-    background-image: url(/SiteCozinha/assets/33b35b63-dccd-449f-8dce-271099fdcac6\ 1.png);
+    background-image: url('');
+    background-size: cover; /* ajusta o tamanho da imagem para cobrir toda a div */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita a repetição da imagem */
 }
+
 
 p {
     color: aliceblue;
+    font-size: 2em
 }
 
 #banner {
