@@ -20,23 +20,28 @@ nav {
 
 main {
 
+    width: 100%;
 
 }
 
 main h1 {
     color: white;    
 }
-.sobre {
-    background-image: url('');
-    background-size: cover; /* ajusta o tamanho da imagem para cobrir toda a div */
-    background-position: center; /* centraliza a imagem */
-    background-repeat: no-repeat; /* evita a repetição da imagem */
+
+#sobre {
+    background-image: url("/SiteCozinha/assets/flat-lay-delicious-brazilian-food-arrangement.jpg");
+    padding: 50px 30px 50px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    text-align: justify;
+ 
 }
 
 
 p {
     color: aliceblue;
-    font-size: 2em
+    font-size: 1.5em;
 }
 
 #banner {
@@ -48,3 +53,6 @@ p {
     border: none;
 }
 
+footer {
+    background-color: #3F1D21;
+}

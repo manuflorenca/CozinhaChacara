@@ -10,46 +10,30 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar fixed-top">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/33b35b63-dccd-449f-8dce-271099fdcac6 1.png" alt=""></a>
-        <button class="navbar-toggler" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <a class="navbar-brand" href="#"><img src="assets/33b35b63-dccd-449f-8dce-271099fdcac6 1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
-        </a>
-        <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li>
-        <hr class="dropdown-divider">
-        </li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-        </li>
-        </ul>
-        <form class="d-flex mt-3" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        </div>
-        </div>
-        </div>
-    </nav>
+      </nav>
 
         <main >
             <!-- Carrosel -->
@@ -87,60 +71,115 @@
             </div>
                
             <!-- Seção de escolha -->
-            <h1 class="d-flex flex-row justify-content-center">Pratos</h1>
+            <h1 class="h1 text-center my-5 text-white">Pratos</h1>
             <section class="d-flex flex-row justify-content-around ">
 
             <!-- Card de escolha pratos -->
-            <div id="CardEscolha" class="d-flex justify-content-around">
+            <div id="CardEscolha" class="d-flex flex-column flex-md-row justify-content-around">
 
-                <div class="card1">
-                    <img src="assets/Ellipse6.png" class="card-img-top" alt="...">
-                    <h2>MARMITA</h2>
+                <div class="card d-flex flex-column col-4 col-md-2">
+                    <a href="secComida.html"><img src="assets/restaurant.png" a class="card-img-top" alt="..."></a>
+                    <h2 class="align-self-center text-white">COMIDAS</h2>
                 </div>
 
-                <div class="card2">
-                    <img src="assets/Ellipse6.png" class="card-img-top" alt="...">
-                    <H2>SELF-SERVICE</H2>
+                <div class="card d-flex flex-column col-4 col-md-2">
+                    <img src="assets/cake.png" class="card-img-top" alt="...">
+                    <h2 class="align-self-center text-white">SOBREMESSAS</h2>
                 </div>
 
-                <div class="card3">
-                    <img src="assets/Ellipse6.png" class="card-img-top" alt="...">
-                    <H2>LA CARTE</H2>
+                <div class="card col-4 col-md-2">
+                        <img src="assets/taaa.png" class="card-img-top" alt="...">
+                        <H2 class="align-self-center text-white"></i> BEBIDAS</H2>
+                    </div>
                 </div>
-
-                <div class="card4">
-                    <img src="assets/Ellipse6.png" class="card-img-top" alt="...">
-                    <H2>BEBIDAS</H2>
-                </div>
-            </div>
     
             </section>
             <h1>Sobre nós</h1>
 
                 <div id="sobre">
-                    <p>Desde 2010, o restaurante localizado no coração da Chácara Klabin tornou-se um destino preferido para os amantes da boa comida e ambiente acolhedor. Com um buffet por quilo variado, o restaurante oferece opções frescas e saudáveis para todos os gostos, além de pratos à la carte cuidadosamente preparados para agradar os paladares mais exigentes. Comece o dia com um café da manhã completo e delicioso, ou relaxe no fim da tarde com nosso happy hour, que reúne bebidas refrescantes e petiscos saborosos. O restaurante é perfeito para todas as ocasiões, do almoço ao encontro entre amigos.</p>
+                    <div id="texto">
+                        <p>Desde 2010, o restaurante localizado no coração da Chácara Klabin tornou-se um destino preferido para os amantes da boa comida e ambiente acolhedor. Com um buffet por quilo variado, o restaurante oferece opções frescas e saudáveis para todos os gostos, além de pratos à la carte cuidadosamente preparados para agradar os paladares mais exigentes. Comece o dia com um café da manhã completo e delicioso, ou relaxe no fim da tarde com nosso happy hour, que reúne bebidas refrescantes e petiscos saborosos. O restaurante é perfeito para todas as ocasiões, do almoço ao encontro entre amigos.</p>
+                    </div>
 
                 </div>
                     
         </main>
 
-    <footer>   
-
-        <nav>
-
-            <ul class="my-5">
-                <li class="mb-2"> <a class="text-light" href=""><i class="bi bi-geo-alt-fill"></i>Rua Vergueiro, 3804</a></li>
-                <li class="mb-2"><a class="text-light" href=""><i class="bi bi-telephone-fill"></i>(11) 91025-8230</a></li>
-     
-            </ul>
-
-            <ul class=" my-5">
-                <li class="mb-2"> <a class="text-light" href=""><i class="bi bi-facebook"></i> Facebook</a></li>
-                <li class="mb-2"><a class="text-light" href=""><i class="bi bi-instagram"></i> Instragram</a></li>
-            </ul>
-
-        </nav>
-    </footer>
+        <footer class="text-center ">
+            <!-- Grid container -->
+            <div class="container pt-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-instagram bg-white"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn btn-link btn-floating btn-lg text-body m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+              © 2020 Copyright:
+              <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
