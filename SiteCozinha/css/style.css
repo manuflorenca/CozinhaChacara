@@ -17,6 +17,7 @@ nav {
 
 }
 
+
 main {
 
 
@@ -24,10 +25,21 @@ main {
 
 main h1 {
     color: white;    
+}
+.sobre {
+    background-image: url(/SiteCozinha/assets/33b35b63-dccd-449f-8dce-271099fdcac6\ 1.png);
+}
 
+p {
+    color: aliceblue;
 }
 
 #banner {
 
+}
+
+.card {
+    background-color: transparent;
+    border: none;
 }
 
