@@ -37,10 +37,18 @@ main h1 {
     text-align: justify;
  
 }
+.fundo{
+    background-color: #F4EADE;
+    background-image: url(/SiteCozinha/assets/5228390.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .card2 {
 
-    background-color: antiquewhite;
+    background-color:#3F1D21;
+    border-radius: 10px;
+    color: #fff;
     
 }
 
@@ -59,6 +67,17 @@ p {
     border: none;
 }
 
-footer {
-    background-color: #3F1D21;
+.promocoes {
+
 }
+
+footer  {
+    background-color: #3F1D21;
+    color: #fff;
+}
+
+footer div section a {
+    color: #ffffff;
+
+}
+
