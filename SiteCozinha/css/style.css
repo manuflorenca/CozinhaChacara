@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lustria", serif;
+
+     
 }
 
 body {
@@ -39,14 +42,18 @@ main h1 {
 }
 .fundo{
     background-color: #F4EADE;
-    background-image: url(/SiteCozinha/assets/5228390.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+h3{
+    font-size: 4em;
+    color: #3F1D21;
+}
+
 .card2 {
 
-    background-color:#3F1D21;
+    background-color:rgba(201, 76, 76, 0.3);
     border-radius: 10px;
     color: #fff;
     
@@ -72,7 +79,7 @@ p {
 }
 
 footer  {
-    background-color: #3F1D21;
+    background-color: #750B1E;
     color: #fff;
 }
 
