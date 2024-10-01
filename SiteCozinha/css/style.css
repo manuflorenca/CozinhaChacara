@@ -74,13 +74,12 @@ p {
     border: none;
 }
 
-.promocoes {
 
-}
 
 footer  {
     background-color: #750B1E;
     color: #fff;
+
 }
 
 footer div section a {
@@ -90,6 +89,11 @@ footer div section a {
 
 a {
     text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none; /* Remove as bolinhas */
 }
 
 /* Alterar cor quando o link for clicado (visited) */

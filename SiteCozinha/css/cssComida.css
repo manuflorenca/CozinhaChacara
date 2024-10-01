@@ -15,6 +15,7 @@ body {
     width: 100vw;
     height: 100vh;   
 }
+
  
 
 nav {
@@ -22,7 +23,40 @@ nav {
 
 }
 
+section {
+    background-color: #F4EADE;
+}
 
-#footer{
-    background-color: var(--cornav);
+footer  {
+    background-color: #750B1E;
+    color: #fff;
+
+}
+
+footer div section a {
+    color: #ffffff;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none; /* Remove as bolinhas */
+}
+
+/* Alterar cor quando o link for clicado (visited) */
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+#opcoesPratos a {
+    text-decoration: none;
+
 }
