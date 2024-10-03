@@ -77,9 +77,18 @@ p {
 }
 
 .card_alimento{
-
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
 }
 
+.img_comida{
+    border-radius: 10px 10px 0px 0;
+
+}
+.line{
+    background-color: #3F1D21;
+    height: 10px;
+}
 .text_card{
    background-color: #750B1E;
    
@@ -116,3 +125,16 @@ a:hover {
     color: darkgray;
 }
 
+.menu_card{
+    background-image: url(/SiteCozinha/assets/cardCostela3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu:hover{
+color: #3F1D21;
+}
