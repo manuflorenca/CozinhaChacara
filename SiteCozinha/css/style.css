@@ -21,6 +21,14 @@ nav {
 
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+
 
 main {
 
@@ -138,3 +146,8 @@ a:hover {
 .menu:hover{
 color: #3F1D21;
 }
+
+video {
+    opacity: 0.5;
+}
+
