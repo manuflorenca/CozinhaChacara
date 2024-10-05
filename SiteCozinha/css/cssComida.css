@@ -15,19 +15,18 @@ body {
 }
 
 
-
-nav {
-    background-color: #3F1D21;
-
-}
-
-.navbar {
+.container-fluid {
     position: fixed;
     top: 0;
+    z-index: 1000;
     width: 100%;
-    z-index: 1000; 
+    background-color: #3F1D21;
+    
 }
 
+.opcoesPratos {
+    
+}
 
 
 main {
@@ -75,9 +74,6 @@ p {
 }
 
 
-#banner {
-
-}
 
 .card {
     background-color: transparent;
@@ -94,8 +90,8 @@ p {
 
 }
 .line{
-    background-color: #fff;
-    height: 10px;
+    background-color: #3F1D21;
+    height: 5px;
 }
 .text_card{
    background-color: #750B1E;
@@ -106,18 +102,6 @@ p {
     border-radius: 20px 
 }
 
-
-
-footer  {
-    background-color: #750B1E;
-    color: #fff;
-
-}
-
-footer div section a {
-    color: #ffffff;
-
-}
 
 a {
     text-decoration: none;
@@ -151,7 +135,7 @@ a:hover {
 color: #3F1D21;
 }
 
-video {
-
+footer nav {
+    background-color: #3F1D21;
 }
 
