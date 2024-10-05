@@ -13,22 +13,28 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/33b35b63-dccd-449f-8dce-271099fdcac6 1.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"><img src="assets/logoCozinha.png" width="100px" alt=""></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="/SiteCozinha/index.html">Home</a>
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/SiteCozinha/index.html/#prato-dia">Pratos da semana</a>
+              <a class="nav-link text-white" href="#seg">Pratos da semana</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#foot">Telefone e Endereço</a>
+              <a class="nav-link text-white" href="telefone.html">Telefone e Endereço</a>
             </li>
           </ul>
+
+          <div class="ms-auto d-flex p-2">
+            <i class="bi bi-telephone text-light fs-5 mx-3"></i> 
+            <h4 class="text-light fs-5 ">(11) 2367-8108</h4>
+          </div>
+
         </div>
       </div>
     </nav>
@@ -50,7 +56,7 @@
       <div class="d-flex flex-row col-12 justify-content-between align-items-center ">
 
         <div class="line col-2 col-md-4 "></div>
-        <h3 class="text-center fs-2 col-6 col-md-4 my-5"><i class="bi bi-calendar-heart"></i> Segunda-feira</h3>
+        <h3 id="seg" class="text-center fs-2 col-6 col-md-4 my-5"><i class="bi bi-calendar-heart"></i> Segunda-feira</h3>
         <div class="line col-2 col-md-4"></div>
 
       </div>
@@ -62,14 +68,14 @@
 
           <!-- Primeiro card -->
           
-            <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+            <div class="card_alimento d-flex flex-column justify-content-center col-10 col-md-3 bg-white">
 
                 <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
                 
                 <!-- section de informações -->
                 <div class="col-12 text_card px-5">
                   <hr class="text-light">
-                    <h1 class="text-center my-5">Picanha</h1>
+                    <h1 class="text-center my-5 text-light">Picanha</h1>
                     <hr class="text-light">
                     <p class="align-self-center " style="text-align: justify;" >Suculento corte de picanha, grelhado no ponto perfeito, servido com opções de arroz branco ou arroz à grega, feijão tradicional, batatas fritas crocantes e brócolis ao vapor. Acompanhado de molho de alho, que realça o sabor da carne, e vinagrete fresco.</p>
                 </div>
@@ -86,14 +92,14 @@
             
 
 
-            <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+            <div class="card_alimento d-flex flex-column justify-content-center col-10 col-md-3 bg-white">
 
               <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
               
               <!-- section de informações -->
               <div class="col-12 text_card px-5">
                 <hr class="text-light">
-                  <h1 class="text-center my-5">Bife de Contra Filé</h1>
+                  <h1 class="text-center my-5 text-light">Bife de Contra Filé</h1>
                   <hr class="text-light">
                   <p class="align-self-center " style="text-align: justify;" >Bife de contra filé grelhado, servido com arroz branco soltinho, feijão, batatas fritas crocantes e uma salada fresca para complementar a refeição. Um prato clássico e delicioso..</p>
               </div>
@@ -346,8 +352,19 @@
           </div >
 
         </div>
+
+
+
+        <!-- PRATOS DIA A DIA -->
+
+        
   
     </section>
+
+
+
+    
+    
 
     <section>
       <div id="menu" class="row row-cols-1 row-cols-md-3 g-4 ">

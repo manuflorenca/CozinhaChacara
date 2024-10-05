@@ -1,31 +1,112 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root{
-    --corfundo: rgb(244,234,222);
-    --cornav: #3F1D21;
-    --corletra: #750B1E;
-    --white: #ffffff;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+   
 }
 
 body {
+    background-color: #750B1E;
     width: 100vw;
     height: 100vh;   
 }
 
- 
+
 
 nav {
     background-color: #3F1D21;
 
 }
 
-section {
-    background-color: #F4EADE;
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
 }
+
+
+
+main {
+
+    width: 100%;
+
+}
+
+main h1 {
+    color: white;    
+}
+
+#sobre {
+    background-image: url("/SiteCozinha/assets/flat-lay-delicious-brazilian-food-arrangement.jpg");
+    padding: 50px 30px 50px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    text-align: justify;
+ 
+}
+.fundo{
+    background-color: #F4EADE;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-size: 4em;
+    color: #3F1D21;
+}
+
+.card2 {
+
+    background-color:rgba(63, 29, 33, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+
+p {
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+
+#banner {
+
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card_alimento{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+}
+
+.img_comida{
+    border-radius: 10px 10px 0px 0;
+
+}
+.line{
+    background-color: #fff;
+    height: 10px;
+}
+.text_card{
+   background-color: #750B1E;
+   
+}
+
+.card {
+    border-radius: 20px 
+}
+
+
 
 footer  {
     background-color: #750B1E;
@@ -56,7 +137,21 @@ a:hover {
     color: darkgray;
 }
 
-#opcoesPratos a {
-    text-decoration: none;
+.menu_card{
+    background-image: url(/SiteCozinha/assets/cardCostela3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu:hover{
+color: #3F1D21;
+}
+
+video {
 
 }
+
