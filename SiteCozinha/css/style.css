@@ -94,12 +94,16 @@ p {
 
 }
 .line{
-    background-color: #3F1D21;
+    background-color: #fff;
     height: 10px;
 }
 .text_card{
    background-color: #750B1E;
    
+}
+
+.card {
+    border-radius: 20px 
 }
 
 
@@ -148,6 +152,6 @@ color: #3F1D21;
 }
 
 video {
-    opacity: 0.5;
+
 }
 
