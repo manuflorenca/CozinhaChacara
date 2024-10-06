@@ -111,10 +111,22 @@ p {
     border: none;
 }
 
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
 .card_alimento{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     border-radius: 10px;
 }
+
+
 
 .img_comida{
     border-radius: 10px 10px 0px 0;
@@ -128,6 +140,7 @@ p {
    background-color: #750B1E;
    
 }
+
 
 .card {
     border-radius: 20px 

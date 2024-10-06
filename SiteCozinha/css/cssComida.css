@@ -135,3 +135,12 @@ footer nav {
     background-color: #3F1D21;
 }
 
+.card_alimento {
+    transition: transform 0.3s ease;
+}
+
+.card_alimento:hover {
+    transform: scale(1.05);
+
+}
+
