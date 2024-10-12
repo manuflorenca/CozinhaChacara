@@ -28,6 +28,19 @@ nav {
     z-index: 1000; 
 }
 
+#obj_cardapio {
+
+    color: #ffffff ;
+    transition: 0.5s;
+
+}
+
+#obj_cardapio:hover {
+
+    font-size: 2.40rem;
+
+}
+
 
 
 .carousel,
@@ -56,8 +69,6 @@ nav {
         font-size: 0.5rem;
     }
 }
-
-
 
 
 main {
