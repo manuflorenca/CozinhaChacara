@@ -28,6 +28,16 @@ nav {
     z-index: 1000; 
 }
 
+#nav_texto {
+
+    color: #fff;
+
+}
+
+#nav_texto:hover {
+    color: #6d6c6c;
+}
+
 #obj_cardapio {
 
     color: #ffffff ;
@@ -40,7 +50,6 @@ nav {
     font-size: 2.40rem;
 
 }
-
 
 
 .carousel,

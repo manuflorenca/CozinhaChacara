@@ -35,6 +35,17 @@ main h1 {
     color: white;    
 }
 
+#nav_texto {
+
+    color: #fff;
+
+}
+
+#nav_texto:hover {
+    color: #6d6c6c;
+}
+
+
 #sobre {
     background-image: url("/SiteCozinha/assets/flat-lay-delicious-brazilian-food-arrangement.jpg");
     padding: 50px 30px 50px 30px;

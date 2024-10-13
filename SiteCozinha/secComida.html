@@ -13,26 +13,25 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/logoCozinha.png" width="100px" alt=""></a>
+        <a class="navbar-brand" href="/SiteCozinha/index.html"><img src="assets/logoCozinha.png" width="100px" alt=""></a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              <a  id="nav_texto" class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#seg">Pratos da semana</a>
+              <a  id="nav_texto" class="nav-link active" href="#cardapio">Cardápio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="telefone.html">Telefone e Endereço</a>
+              <a  id="nav_texto" class="nav-link active" href="telefone.html">Telefone e Endereço</a>
             </li>
           </ul>
 
-
           <div class="ms-auto d-flex p-2">
-            <i class="bi bi-telephone text-light fs-5 mx-3"></i> 
+            <i class="bi bi-telephone text-light fs-6 mx-3"></i> 
             <h4 class="text-light fs-5 ">(11) 2367-8108</h4>
           </div>
 
@@ -86,7 +85,7 @@
               <div class="d-flex flex-row col-12 justify-content-between align-items-center ">
 
                 <div class="line col-2 col-md-4 "></div>
-                <h3 id="TodoDia" class="text-center fs-2 col-6 col-md-4 my-5"><i class="bi bi-card-text"> Pratos de todos os dias</h3></i> 
+                <h3 id="TodoDia" class="text-center fs-2 col-6  col-md-4 my-5"><i class="bi bi-card-text"> Pratos de todos os dias</h3></i> 
                 <div class="line col-2 col-md-4"></div>
         
               </div>
@@ -94,7 +93,7 @@
               <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
                 
                 <!-- Primeiro card -->
-                <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+                <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
       
                   <img src="assets/Design sem nome (12).png" class="col-12 img_comida " alt="">
                   
@@ -103,7 +102,7 @@
                     <hr class="text-light">
                       <h1 class="text-center my-5 text-light">Picanha</h1>
                       <hr class="text-light">
-                      <p class="align-self-center " style="text-align: justify;" >A picanha é um corte nobre de carne bovina, muito apreciado pela sua maciez e sabor intenso. Geralmente preparada na brasa, ela apresenta uma camada de gordura que derrete durante o cozimento, conferindo suculência e um toque defumado. Servida em fatias generosas, é perfeita para acompanhar farofa, vinagrete e uma boa cerveja.</p>
+                      <p class="align-self-center " style="text-align: justify;" >A picanha é um corte nobre, conhecido por sua maciez e sabor intenso, realçados pela camada de gordura que derrete na brasa. Servida em fatias, é ideal com farofa, vinagrete e uma boa cerveja.</p>
                   </div>
       
                   <!-- Section de preço -->
@@ -116,7 +115,7 @@
                   <!-- Aqui acaba o card -->
       
                             <!-- Primeiro card -->
-                  <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+                  <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
       
                   <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
                   
@@ -125,7 +124,7 @@
                     <hr class="text-light">
                       <h1 class="text-center my-5 text-light">Bife de contra filé</h1>
                       <hr class="text-light">
-                      <p class="align-self-center " style="text-align: justify;" >O bife de contra filé é um corte suculento e macio, com uma fina camada de gordura que realça seu sabor. Grelhado ou frito, é ideal para quem aprecia uma carne bem temperada, que pode ser servida mal passada ou ao ponto. Com seu sabor robusto, combina perfeitamente com arroz, feijão e uma salada fresca.</p>
+                      <p class="align-self-center " style="text-align: justify;" >O bife de contra filé é suculento e macio, com uma fina camada de gordura que intensifica seu sabor. Grelhado ou frito, combina bem com arroz, feijão e salada fresca.</p>
                   </div>
       
                   <!-- Section de preço -->
@@ -135,9 +134,9 @@
                   </div>
                   </div >
       
-      
                   <!-- Terceiro card -->
-                  <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+
+                  <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
       
                     <img src="assets/Design sem nome (9).png" class="col-12 img_comida " alt="">
                     
@@ -146,7 +145,8 @@
                       <hr class="text-light">
                         <h1 class="text-center my-5 text-light">Filé a milanesa</h1>
                         <hr class="text-light">
-                        <p class="align-self-center " style="text-align: justify;" >O filé à milanesa é uma deliciosa opção que traz um bife empanado e frito até ficar dourado e crocante. O contraste entre a crocância da camada de farinha de rosca e a maciez da carne é irresistível. Geralmente acompanhado de arroz e purê de batata, esse prato é um verdadeiro conforto, perfeito para qualquer refeição.</p>
+                        <p class="align-self-center " style="text-align: justify;" >
+                          O filé à milanesa é um bife empanado e frito até ficar dourado e crocante, com uma textura irresistível. Acompanhado de arroz e purê, é uma opção deliciosa e reconfortante.</p>
                     </div>
       
                     <!-- Section de preço -->
@@ -158,7 +158,6 @@
                 </div >
                 
           </section>
-      
       
           <!-- CAGADA -->
       
@@ -175,7 +174,7 @@
               <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
                 
                 <!-- Primeiro card -->
-                <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+                <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
       
                   <img src="assets/Design sem nome (8).png" class="col-12 img_comida " alt="">
                   
@@ -184,7 +183,7 @@
                     <hr class="text-light">
                       <h1 class="text-center my-5 text-light">Filé de frango </h1>
                       <hr class="text-light">
-                      <p class="align-self-center " style="text-align: justify;" >O filé de frango é uma opção leve e versátil, que pode ser grelhada, assada ou frita. Com seu sabor suave, ele é ideal para temperos variados e combinações de acompanhamentos. É frequentemente servido com legumes salteados ou em uma salada, tornando-se uma escolha saudável e saborosa.</p>
+                      <p class="align-self-center " style="text-align: justify;" >O filé de frango é leve e versátil, podendo ser grelhado, assado ou frito, e combina com diversos temperos. Com legumes ou salada, é uma escolha saudável e saborosa.</p>
                   </div>
       
                   <!-- Section de preço -->
@@ -196,8 +195,8 @@
       
                   <!-- Aqui acaba o card -->
       
-                            <!-- Primeiro card -->
-                  <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+                  <!-- Primeiro card -->
+                  <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
       
                   <img src="assets/Design sem nome (7).png" class="col-12 img_comida " alt="">
                   
@@ -206,7 +205,7 @@
                     <hr class="text-light">
                       <h1 class="text-center my-5 text-light">Linguiça toscana</h1>
                       <hr class="text-light">
-                      <p class="align-self-center " style="text-align: justify;" >A linguiça toscana é uma iguaria repleta de sabor, feita com carne suína e temperos como alho e ervas. Ao ser grelhada, libera sucos aromáticos que envolvem o paladar em uma explosão de sabores. É perfeita para ser servida em um churrasco, acompanhada de pão, molho de pimenta e uma boa dose de chimichurri.</p>
+                      <p class="align-self-center " style="text-align: justify;" > A linguiça toscana, feita de carne suína e temperos, libera sucos aromáticos ao ser grelhada, proporcionando uma explosão de sabores. Ideal para churrasco, combina com pão, molho de pimenta e chimichurri.</p>
                   </div>
       
                   <!-- Section de preço -->
@@ -218,7 +217,7 @@
       
       
                   <!-- Terceiro card -->
-                  <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+                  <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
       
                     <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
                     
@@ -227,7 +226,7 @@
                       <hr class="text-light">
                         <h1 class="text-center my-5 text-light">Omelete com muçarela e tomate</h1>
                         <hr class="text-light">
-                        <p class="align-self-center " style="text-align: justify;" >A omelete com muçarela e tomate é um prato simples, mas repleto de sabor. Feita com ovos batidos e recheada generosamente com muçarela derretida e tomates frescos, ela é uma escolha perfeita para o café da manhã ou um lanche leve. O resultado é uma omelete macia e aromática, que combina muito bem com ervas frescas e uma pitada de sal.</p>
+                        <p class="align-self-center " style="text-align: justify;" >A omelete com muçarela e tomate é uma opção saborosa e simples, perfeita para café da manhã ou lanche leve. Macia e aromática, combina bem com ervas frescas e sal.</p>
                     </div>
       
                     <!-- Section de preço -->
@@ -241,6 +240,7 @@
           </section>
 
       <section class="fundo">
+
           <div class="d-flex flex-row col-12 justify-content-between align-items-center ">
 
             <div class="line col-2 col-md-4 "></div>
@@ -249,14 +249,12 @@
     
           </div>
 
-        
-        
         <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
           
 
           <!-- Primeiro card -->
           
-            <div class="card_alimento d-flex flex-column justify-content-center col-10 col-md-3 bg-white">
+            <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
                 <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
                 
@@ -265,7 +263,7 @@
                   <hr class="text-light">
                     <h1 class="text-center my-5 text-light">Bife a Parmegiana</h1>
                     <hr class="text-light">
-                    <p class="align-self-center " style="text-align: justify;" >O bife à parmegiana é um clássico da culinária italiana adaptado ao paladar brasileiro. Ele consiste em um suculento filé de carne bovina, geralmente alcatra ou contrafilé, que é empanado e frito até adquirir uma crocância dourada. Em seguida, o bife é coberto com molho de tomate caseiro, feito com tomates frescos e temperos, e finalizado com uma generosa camada de queijo derretido, tradicionalmente mussarela.</p>
+                    <p class="align-self-center " style="text-align: justify;" >O bife à parmegiana é um clássico com filé empanado e frito, coberto com molho de tomate e queijo mussarela derretido. Esse prato italiano, adaptado ao gosto brasileiro, é suculento e crocante.</p>
                 </div>
 
                 <!-- Section de preço -->
@@ -280,7 +278,7 @@
             
 
 
-            <div class="card_alimento d-flex flex-column justify-content-center col-10 col-md-3 bg-white">
+            <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
               <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
               
@@ -289,7 +287,7 @@
                 <hr class="text-light">
                   <h1 class="text-center my-5 text-light">Virado a Paulista</h1>
                   <hr class="text-light">
-                  <p class="align-self-center " style="text-align: justify;" >O prato é composto por uma mistura de arroz, feijão engrossado com farinha de milho ou mandioca, e acompanhado por bisteca de porco, couve refogada, linguiça, banana frita e ovo frito. Rico e saboroso, o virado à paulista representa a fusão de diferentes influências, como indígenas, africanas e portuguesas, e é um verdadeiro banquete em uma única refeição.</p>
+                  <p class="align-self-center " style="text-align: justify;" >O virado à paulista é uma mistura de arroz, feijão engrossado com farinha, bisteca, couve, linguiça, banana frita e ovo. Rico em sabores, o prato reflete influências indígenas, africanas e portuguesas.</p>
               </div>
 
               <!-- Section de preço -->
@@ -318,7 +316,7 @@
 
         <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
 
-          <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+          <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
             <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
             
@@ -327,7 +325,7 @@
               <hr class="text-light">
                 <h1 class="text-center my-5 text-light">Strogonoff de Carne</h1>
                 <hr class="text-light">
-                <p class="align-self-center " style="text-align: justify;" >Tiras de carne bovina cozidas em um molho cremoso à base de creme de leite, molho de tomate e ketchup, com temperos como cebola e mostarda. Normalmente acompanhado de arroz e batata palha.</p>
+                <p class="align-self-center " style="text-align: justify;" >Tiras de carne bovina em um molho cremoso de creme de leite, tomate e ketchup, com cebola e mostarda. Geralmente servido com arroz e batata palha.</p>
             </div>
 
             <!-- Section de preço -->
@@ -338,9 +336,8 @@
         </div >
 
         <!--  -->
-
         
-        <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+        <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
           <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
           
@@ -349,7 +346,7 @@
             <hr class="text-light">
               <h1 class="text-center my-5 text-light">Bife à Rolê</h1>
               <hr class="text-light">
-              <p class="align-self-center " style="text-align: justify;" >Fatias de carne bovina enroladas e recheadas com cenoura, bacon e outros ingredientes, cozidas no molho. O prato é geralmente servido com arroz e batatas cozidas ou purê.</p>
+              <p class="align-self-center " style="text-align: justify;" >Fatias de carne bovina recheadas com cenoura e bacon, cozidas em molho. Servido com arroz e batatas ou purê.</p>
           </div>
 
           <!-- Section de preço -->
@@ -374,14 +371,10 @@
 
         </div>
 
-  
-
-
-
         <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
           
           <!-- Primeiro card -->
-          <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+          <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
             <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
             
@@ -390,7 +383,8 @@
               <hr class="text-light">
                 <h1 class="text-center my-5 text-light">Feijoada Completa</h1>
                 <hr class="text-light">
-                <p class="align-self-center " style="text-align: justify;" >Prato brasileiro à base de feijão preto cozido com uma variedade de carnes suínas, como costela, linguiça, orelha, pé e carne-seca. Tradicionalmente servido com arroz, couve refogada, farofa, laranja e torresmo.</p>
+                <p class="align-self-center " style="text-align: justify;" >
+                  Prato brasileiro de feijão preto com carnes suínas, como costela e linguiça. Tradicionalmente servido com arroz, couve, farofa, laranja e torresmo.</p>
             </div>
 
             <!-- Section de preço -->
@@ -400,13 +394,9 @@
             </div>
         </div >
 
-
             <!--  -->
-
-            
-          <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
-
-            
+         
+          <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
             <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
             
@@ -415,7 +405,7 @@
               <hr class="text-light">
                 <h1 class="text-center my-5 text-light">Feijoada Light</h1>
                 <hr class="text-light">
-                <p class="align-self-center " style="text-align: justify;" >Uma versão mais leve da feijoada completa, utilizando cortes de carne com menos gordura, como lombo suíno e linguiça de frango. Acompanham os mesmos acompanhamentos tradicionais.</p>
+                <p class="align-self-center " style="text-align: justify;" >Uma versão leve da feijoada, feita com carnes magras como lombo suíno e linguiça de frango, acompanhada dos mesmos acompanhamentos tradicionais.</p>
             </div>
 
             <!-- Section de preço -->
@@ -437,10 +427,9 @@
 
         </div>
 
-
         <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
           
-          <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+          <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
             <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
             
@@ -449,7 +438,8 @@
               <hr class="text-light">
                 <h1 class="text-center my-5 text-light">Lasanha à Bolonhesa com Muçarela e Presunto</h1>
                 <hr class="text-light">
-                <p class="align-self-center " style="text-align: justify;" >Lasanha feita com camadas de massa intercaladas com molho à bolonhesa (molho de tomate com carne moída), presunto, muçarela e molho branco, tudo gratinado no forno.</p>
+                <p class="align-self-center " style="text-align: justify;" >
+                  Lasanha com camadas de massa, molho à bolonhesa, presunto, muçarela e molho branco, gratinada no forno.</p>
             </div>
 
             <!-- Section de preço -->
@@ -461,7 +451,7 @@
 
           <!-- Primeiro card -->
             
-          <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+          <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
             <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
             
@@ -470,7 +460,7 @@
               <hr class="text-light">
                 <h1 class="text-center my-5 text-light">Cupim Assado</h1>
                 <hr class="text-light">
-                <p class="align-self-center " style="text-align: justify;" >Corte de carne bovina caracterizado por sua suculência e gordura marmorizada. O cupim é assado lentamente até ficar macio, com temperos como alho, sal e pimenta. Servido com arroz, farofa ou batatas.</p>
+                <p class="align-self-center " style="text-align: justify;" >O cupim é um corte bovino suculento com gordura marmorizada, assado lentamente até ficar macio, temperado com alho, sal e pimenta. Geralmente é servido com arroz, farofa ou batatas.</p>
             </div>
 
             <!-- Section de preço -->
@@ -494,11 +484,10 @@
 
         </div>
 
-
         <div class="promocoes d-flex flex-column flex-md-row justify-content-center-lg-around justify-content-md-around align-items-center">
           
           <!-- Primeiro card -->
-          <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+          <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
             <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
             
@@ -507,7 +496,7 @@
               <hr class="text-light">
                 <h1 class="text-center my-5 text-light">Filé de Peixe à Milanesa</h1>
                 <hr class="text-light">
-                <p class="align-self-center " style="text-align: justify;" >Filé de peixe empanado com farinha de rosca e frito até ficar crocante. Normalmente acompanhado de arroz, batatas fritas ou salada.</p>
+                <p class="align-self-center " style="text-align: justify;" >Filé de peixe empanado e frito até ficar crocante, geralmente servido com arroz, batatas fritas ou salada.</p>
             </div>
 
             <!-- Section de preço -->
@@ -520,7 +509,7 @@
             <!-- Aqui acaba o card -->
 
             <!-- Terceiro card -->
-            <div class="card_alimento d-flex flex-column justify-content-center col-12 col-md-3 bg-white">
+            <div class="card_alimento d-flex flex-column justify-content-center col-10 my-5 col-md-3 bg-white">
 
               <img src="assets/picanha.jpg" class="col-12 img_comida " alt="">
               
@@ -529,7 +518,8 @@
                 <hr class="text-light">
                   <h1 class="text-center my-5 text-light">Rabada</h1>
                   <hr class="text-light">
-                  <p class="align-self-center " style="text-align: justify;" >Prato feito com rabo de boi, cozido lentamente com temperos e vegetais até a carne ficar macia. Tradicionalmente servido com polenta ou arroz e agrião.</p>
+                  <p class="align-self-center " style="text-align: justify;" >
+                    Prato de rabo de boi cozido lentamente com temperos e vegetais até ficar macio, tradicionalmente servido com polenta ou arroz e agrião.</p>
               </div>
 
               <!-- Section de preço -->
@@ -542,18 +532,19 @@
         </div>
 
       </section>
-
-    <footer id="foot" class="row bg-dark d-flex flex-row">
-      <nav class="col-12">
-          <ul class=" column-6 my-5">
-              <li class="mb-2"> <a class="text-light" href="https://www.facebook.com/cozinhadachacara/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
-              <li class="mb-2"><a class="text-light" href="https://www.instagram.com/cozinhadachacara/" target="_blank"><i class="bi bi-instagram"></i> Instragram</a></li>
-              <li class="mb-2"> <a class="text-light" href=""><i class="bi bi-telephone"></i> Telefone</a></li>
-              <li class="mb-2"><a class="text-light" href=""><i class="bi bi-geo-alt-fill"></i> Endereço</a></li>
-          </ul>
-      </nav>
-    </footer>
-  
+      
+      <footer id="foot" class="row bg-dark d-flex flex-row">
+        <nav class="col-12">
+            <ul class="column-6 my-5">
+                <li class="mb-2"> <a class="text-light" href="https://www.facebook.com/cozinhadachacara/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                <li class="mb-2"><a class="text-light" href="https://www.instagram.com/cozinhadachacara/" target="_blank"><i class="bi bi-instagram"></i> Instragram</a></li>
+                <li class="mb-2"> <a class="text-light" href="telefone.html"><i class="bi bi-telephone"></i> Telefone</a></li>
+                <li class="mb-2"><a class="text-light" href="telefone.html"><i class="bi bi-geo-alt-fill"></i> Endereço</a></li>
+                <li class="mb-2"><a class="text-light" href="https://www.linkedin.com/in/manuelaflorenca/" target="_blank"><i class="bi bi-linkedin"></i> Desenvolvedora do Site</a></li>
+                
+            </ul>
+        </nav>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
