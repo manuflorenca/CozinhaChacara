@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
    
 }
@@ -40,7 +40,7 @@ nav {
 
 #obj_cardapio {
 
-    color: #ffffff ;
+    color: #750B1E ;
     transition: 0.5s;
 
 }
@@ -147,7 +147,6 @@ p {
 }
 
 
-
 .img_comida{
     border-radius: 10px 10px 0px 0;
 
@@ -204,12 +203,99 @@ a:hover {
 }
 
 .menu{
-    color: #ffffff;
+    color: #750B1E;
     cursor: pointer;
 }
 .menu:hover{
 color: #3F1D21;
 }
+
+.menu a {
+    color: #750B1E;
+}
+
+/* ca */
+
+/* Estilização da barra de navegação */
+.barra {
+  background-color: #F4EADE; /* Cor de fundo suave */
+  padding: 20px 0; /* Espaçamento vertical */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+}
+
+/* Estilo dos itens de menu */
+.barra ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Espaçamento entre os itens */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove marcadores de lista */
+}
+
+@media (min-width: 768px) {
+  .barra ul {
+    flex-direction: row; /* Disposição em linha para telas maiores */
+  }
+}
+
+/* Estilo dos links */
+.menu a {
+  color: #750B1E; /* Cor do texto */
+  font-size: 1.2rem; /* Tamanho da fonte */
+  font-weight: 500;
+  text-decoration: none; /* Remove sublinhado */
+  padding: 12px 20px; /* Espaçamento interno */
+  border-radius: 6px; /* Bordas arredondadas */
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito hover */
+.menu a:hover {
+  color: #750B1E; /* Cor do texto ao passar o mouse */
+  transform: translateY(-4px); /* Elevação sutil */
+}
+
+/* Linha abaixo da barra */
+.line {
+  height: 3px;
+  background: linear-gradient(to right, #ffffff, #ffffff); /* Gradiente para o separador */
+  margin-top: 15px; /* Espaçamento acima da linha */
+  border-radius: 2px; /* Bordas arredondadas */
+}
+
+
+/*  */
+
+.card-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+  }
+  
+  .card {
+    border: none; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer; 
+  }
+  
+  .card-img-top {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+  }
+  
 
 
 
