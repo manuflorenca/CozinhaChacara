@@ -8,137 +8,147 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">   
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/LOGOPNGCASA.png">
+    <style>
+        .container {
+            overflow: hidden; 
+        }
+
+        #left-image {
+            transform: translateX(-100%); 
+            opacity: 0; 
+            transition: transform 0.5s ease, opacity 0.5s ease; 
+        }
+
+        #right-image {
+            transform: translateX(100%);
+            opacity: 0; 
+            transition: transform 0.5s ease, opacity 0.5s ease; 
+        }
+
+       
+        .container.animate #left-image {
+            transform: translateX(0); 
+            opacity: 1; 
+        }
+
+        .container.animate #right-image {
+            transform: translateX(0); 
+            opacity: 1; 
+        }
+    </style>
 </head>
 <body>
-  
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/SiteCozinha/index.html"><img src="assets/logoCozinha.png" width="100px" alt=""></a>
-          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a  id="nav_texto" class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a  id="nav_texto" class="nav-link active" href="index.html">Cardápio</a>
-              </li>
-              <li class="nav-item">
-                <a  id="nav_texto" class="nav-link active" href="telefone.html">Telefone e Endereço</a>
-              </li>
-            </ul>
-
-            <div class="ms-auto d-flex p-2">
-              <i class="bi bi-telephone text-light fs-6 mx-3"></i> 
-              <h4 class="text-light fs-5 "><a id="wp" href="https://wa.me/5511986812832" target="_blank">(11) 2367-8108</a></h4>
-            </div>
-
-          </div>
-        </div>
-      </nav>
-
-        <main >
-
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <video autoplay loop muted src="assets/COZINHA DA CHÁCARA (2).mp4"></video>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Melhor  Restaurante da Chácara  Klabin</h5>
-                  <p>Conheça nossas comidas!</p>
+            <a class="navbar-brand" href="/SiteCozinha/index.html"><img src="assets/logoCozinha.png" width="100px" alt=""></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="nav_texto" class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav_texto" class="nav-link active" href="index.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav_texto" class="nav-link active" href="telefone.html">Telefone e Endereço</a>
+                    </li>
+                </ul>
+                <div class="ms-auto d-flex p-2">
+                    <i class="bi bi-telephone text-light fs-6 mx-3"></i ```html
+                    <h4 class="text-light fs-5 "><a id="wp" href="https://wa.me/5511986812832" target="_blank">(11) 2367-8108</a></h4>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+    </nav>
 
-          <!-- FIM VIDEO -->
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video autoplay loop muted src="assets/COZINHA DA CHÁCARA (2).mp4"></video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Melhor Restaurante da Chácara Klabin</h5>
+                        <p>Conheça nossas comidas!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="cardapio" class="d-flex flex-row col-12 justify-content-between align-items-center ">
-
-          <div class="line col-2 col-md-4 "></div>
-
-          <img src="/SiteCozinha/assets/cardapio2.png" class="d-flex align-items-center" alt="cardapio da cozinha da chácara">
-
-          <div class="line col-2 col-md-4"> </div>
-
+            <div class="line col-2 col-md-4 "></div>
+            <img src="/SiteCozinha/assets/cardapio2.png" class="d-flex align-items-center" alt="cardapio da cozinha da chácara">
+            <div class="line col-2 col-md-4"> </div>
         </div>
 
+        <div class="barra">
+            <ul class="d-flex flex-column flex-md-row justify-content-around align-items-center">
+                <li class="fs-3 my-4 menu ">
+                    <a id="obj_cardapio" href="secComida.html">Comidas</a>                 
+                </li>
+                <li class="fs-3 my-4 menu"> 
+                    <a id="obj_cardapio" href="secBebidas.html">Bebidas</a> 
+                </li>
+                <li class="fs-3 my-4 menu">    
+                    <a id="obj_cardapio" href="secHappy.html">Happy Hour</a> 
+                </li>
+                <li class="fs-3 my-4 menu">
+                    <a id="obj_cardapio" href="secCafeManha.html">Café da manhã</a>
+                </li>
+            </ul>
         </div>
 
-            <div class="barra">
-              <ul class="d-flex flex-column flex-md-row justify-content-around align-items-center">
-                <li class="fs-3  my-4 menu ">
-                  <a id="obj_cardapio"  href="secComida.html">
-                  Comidas
-                  </a>                 
-                </li>
+        <div class="line col-12 col-md-12 "></div>
 
-                <li class="fs-3  my-4 menu"> 
-                  <a id="obj_cardapio" href="secBebidas.html">
-                     Bebidas
-                  </a> 
-                </li>
-
-                <li class="fs-3  my-4 menu">    
-                  <a id="obj_cardapio" href="secHappy.html">
-                   Happy Hour
-                  </a> 
-                </li>
-                <li class="fs-3  my-4 menu">
-                  <a id="obj_cardapio" href="secCafeManha.html">
-                     Café da manhã
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="line col-12 col-md-12 "></div>
-
-            <!-- IMAGENS -->
-
-            <div class="card-group my-5">
-              <div class="card">
-                <img src="/SiteCozinha/assets/CERVEJAS.png" class="card-img-top" alt="Foto de cervejas">
-              </div>
-              <div class="card">
-                <img src="/SiteCozinha/assets/SOBREMESA.png" class="card-img-top" alt="Foto de uma tortinha de limão">
-              </div>
-              <div class="card">
-                <img src="/SiteCozinha/assets/PALETA.png" class="card-img-top" alt="Foto de um sorvete">
-              </div>
-            </div>
-
-            <div class="line col-12 col-md-12 "></div>
-
-            <div class="container">
-              <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 col-sm-5">
-                  <img src="assets/verdurasHome.png" class="img-fluid" alt="">
+                    <img src="assets/verdurasHome.png" class="img-fluid" alt="" id="left-image">
                 </div>
                 <div class="col-12 col-sm-7">
-                  <img src="assets/qualiadeHome.png" class="img-fluid" alt="">
-                  <p>O Cozinha da Chácara é o destino ideal para quem busca uma experiência gastronômica saudável e saborosa. Localizado na charmosa Chácara Klabin, o restaurante oferece pratos frescos e de alta qualidade, preparados com ingredientes selecionados e um toque especial de criatividade. Com um cardápio que celebra o melhor da culinária saudável, o Cozinha da Chácara proporciona um ambiente acolhedor e autêntico, perfeito para desfrutar de refeições nutritivas sem abrir mão do sabor.</p>
+                    <img src="assets/qualiadeHome.png" class="img-fluid" alt="" id="right-image">
+                    <p>O Cozinha da Chácara é o destino ideal para quem busca uma experiência gastronômica saudável e saborosa. Localizado na charmosa Chácara Klabin, o restaurante oferece pratos frescos e de alta qualidade, preparados com ingredientes selecionados e um toque especial de criatividade. Com um cardápio que celebra o melhor da culinária saudável, o Cozinha da Chácara proporciona um ambiente acolhedor e autêntico, perfeito para desfrutar de refeições nutritivas sem abrir mão do sabor.</p>
                 </div>
-              </div>
             </div>
+        </div>
+    </main>
 
-        </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.querySelector('.container');
+            const options = {
+                root: null, 
+                rootMargin: '0px',
+                threshold: 0.1
+            };
 
-        <footer id="foot" class="row bg-dark d-flex flex-row">
-          <nav class="col-12">
-              <ul class="column-6 my-5">
-                  <li class="mb-2"> <a class="text-light" href="https://www.facebook.com/cozinhadachacara/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
-                  <li class="mb-2"><a class="text-light" href="https://www.instagram.com/cozinhadachacara/" target="_blank"><i class="bi bi-instagram"></i> Instragram</a></li>
-                  <li class="mb-2"> <a class="text-light" href="telefone.html"><i class="bi bi-telephone"></i> Telefone</a></li>
-                  <li class="mb-2"><a class="text-light" href="https://www.google.com/maps/dir//Rua+Vergueiro,+3804+-+Vila+Mariana,+São+Paulo+-+SP,+04102-002/@-23.5929731,-46.712613,33131m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x94ce5bd2ed911103:0x8f3b04964ad7088b!2m2!1d-46.6302114!2d-23.5929948?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="bi bi-geo-alt-fill"></i> Endereço</a></li>
-                  <li class="mb-2"><a class="text-light" href="https://www.linkedin.com/in/manuelaflorenca/" target="_blank"><i class="bi bi-linkedin"></i> Desenvolvedora do Site</a></li>
-                  
-              </ul>
-          </nav>
-        </footer>
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        container.classList.add('animate');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+            observer.observe(container);
+        });
+    </script>
+
+    <footer id="foot" class="row bg-dark d-flex flex-row">
+        <nav class="col-12">
+            <ul class="column-6 my-5">
+                <li class="mb-2"> <a class="text-light" href="https://www.facebook.com/cozinhadachacara/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                <li class="mb-2"><a class="text-light" href="https://www.instagram.com/cozinhadachacara/" target="_blank"><i class="bi bi-instagram"></i> Instragram</a></li>
+                <li class="mb-2"> <a class="text-light" href="telefone.html"><i class="bi bi-telephone"></i> Telefone</a></li>
+                <li class="mb-2"><a class="text-light" href="https://www.google.com/maps/dir//Rua+Vergueiro,+3804+-+Vila+Mariana,+São+Paulo+-+SP,+04102-002/@-23.5929731,-46.712613,33131m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x94ce5bd2ed911103:0x8f3b04964ad7088b!2m2!1d-46.6302114!2d-23.5929948?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="bi bi-geo-alt-fill"></i> Endereço</a></li>
+                <li class="mb-2"><a class="text-light" href="https://www.linkedin.com/in/manuelaflorenca/" target="_blank"><i class="bi bi-linkedin"></i> Desenvolvedora do Site</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
 </html>
