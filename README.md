@@ -32,11 +32,11 @@ Bem-vindo ao repositório do **Cozinha da Chácara**, um site desenvolvido para 
    ```bash
    git clone https://github.com/seuusuario/CozinhaDaChacara.git
 
-📞 Contato
-Telefone: (11) 2367-8108
-Endereço: Rua Vergueiro, 3804 - Vila Mariana, São Paulo - SP
-Redes sociais:
+## 📞 Contato
+## Telefone: (11) 2367-8108
+## Endereço: Rua Vergueiro, 3804 - Vila Mariana, São Paulo - SP
+## Redes sociais:
 Instagram
 Facebook
-📝 Créditos
+## 📝 Créditos
 Desenvolvido por Manuela Florença.
