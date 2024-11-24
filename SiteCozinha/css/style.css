@@ -1,20 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-* {
+html, body {
+    background-color: #750B1E;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-   
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal */
 }
 
-body {
-    background-color: #750B1E;
-    width: 100vw;
-    height: 100vh;   
+.container {
+    overflow: hidden; 
 }
 
+.carousel,
+.carousel-inner,
+.carousel-item {
+    width: 100%; /* Use 100% em vez de 100vw */
+    height: 100vh; /* Isso deve funcionar bem */
+}
 
+.carousel-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
 
 nav {
     background-color: #3F1D21;
@@ -167,15 +176,25 @@ p {
 
 
 
-footer  {
+footer {
     background-color: #750B1E;
     color: #fff;
-
 }
 
-footer div section a {
-    color: #ffffff;
+footer a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
 
+footer a:hover {
+    color: darkgray; 
+}
+
+footer button {
+    border: none; 
+    background: none; 
+    padding: 0;
+    cursor: pointer; 
 }
 
 a {
@@ -187,7 +206,6 @@ ul {
     list-style-type: none; /* Remove as bolinhas */
 }
 
-/* Alterar cor quando o link for clicado (visited) */
 a:visited {
     color: gray;
 }
@@ -218,9 +236,9 @@ color: #3F1D21;
 
 /* Estilização da barra de navegação */
 .barra {
-  background-color: #F4EADE; /* Cor de fundo suave */
-  padding: 20px 0; /* Espaçamento vertical */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+  background-color: #F4EADE;
+  padding: 20px 0; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
 }
 
 /* Estilo dos itens de menu */
@@ -229,41 +247,41 @@ color: #3F1D21;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* Espaçamento entre os itens */
+  gap: 10px;
   padding: 0;
   margin: 0;
-  list-style: none; /* Remove marcadores de lista */
+  list-style: none; 
 }
 
 @media (min-width: 768px) {
   .barra ul {
-    flex-direction: row; /* Disposição em linha para telas maiores */
+    flex-direction: row; 
   }
 }
 
 /* Estilo dos links */
 .menu a {
-  color: #750B1E; /* Cor do texto */
-  font-size: 1.2rem; /* Tamanho da fonte */
+  color: #750B1E;
+  font-size: 1.2rem;
   font-weight: 500;
-  text-decoration: none; /* Remove sublinhado */
-  padding: 12px 20px; /* Espaçamento interno */
-  border-radius: 6px; /* Bordas arredondadas */
-  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+  text-decoration: none;
+  padding: 12px 20px; 
+  border-radius: 6px; 
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; 
 }
 
 /* Efeito hover */
 .menu a:hover {
-  color: #750B1E; /* Cor do texto ao passar o mouse */
-  transform: translateY(-4px); /* Elevação sutil */
+  color: #750B1E;
+  transform: translateY(-4px); 
 }
 
 /* Linha abaixo da barra */
 .line {
   height: 3px;
-  background: linear-gradient(to right, #ffffff, #ffffff); /* Gradiente para o separador */
-  margin-top: 15px; /* Espaçamento acima da linha */
-  border-radius: 2px; /* Bordas arredondadas */
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  margin-top: 15px;
+  border-radius: 2px; 
 }
 
 
