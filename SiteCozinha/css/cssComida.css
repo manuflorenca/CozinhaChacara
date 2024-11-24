@@ -204,3 +204,12 @@ footer button {
     cursor: pointer; 
 }
 
+.btn-success {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #5cb85c; 
+    transform: scale(1.05); 
+}
+

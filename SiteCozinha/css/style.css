@@ -34,6 +34,7 @@ html, body {
     object-fit: cover; 
 }
 
+
 nav {
     background-color: #3F1D21;
 
@@ -322,6 +323,12 @@ color: #3F1D21;
     height: auto;
     object-fit: cover; 
   }
-  
 
+  /* botaão fixo */
   
+.floating-buttons {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Distância do fundo da tela */
+    right: 20px; /* Distância da direita da tela */
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
