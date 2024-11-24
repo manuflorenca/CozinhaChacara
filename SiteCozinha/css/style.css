@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+
 html, body {
     background-color: #750B1E;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden; /* Evita rolagem horizontal */
+    overflow-x: hidden; 
 }
 
 .container {
@@ -15,8 +24,8 @@ html, body {
 .carousel,
 .carousel-inner,
 .carousel-item {
-    width: 100%; /* Use 100% em vez de 100vw */
-    height: 100vh; /* Isso deve funcionar bem */
+    width: 100%; 
+    height: 100vh; 
 }
 
 .carousel-item video {
