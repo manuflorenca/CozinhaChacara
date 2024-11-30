@@ -165,7 +165,6 @@ p {
     border-radius: 10px;
 }
 
-
 .img_comida{
     border-radius: 10px 10px 0px 0;
 
@@ -174,11 +173,6 @@ p {
     background-color: #fff;
     height: 5px;
 }
-.text_card{
-   background-color: #750B1E;
-   
-}
-
 
 .card {
     border-radius: 20px 
@@ -327,8 +321,14 @@ color: #3F1D21;
   /* botaão fixo */
   
 .floating-buttons {
-    position: fixed; /* Fixa o botão na tela */
-    bottom: 20px; /* Distância do fundo da tela */
-    right: 20px; /* Distância da direita da tela */
-    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    z-index: 1000;
+}
+
+#left-image, #right-image {
+    /* Remova a animação para teste */
+    transform: translateX(-100%); 
+
 }
